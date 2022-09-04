@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pyyaml = "*"
+arrow = "*"
+wget = "*"
+tables = "*"
+numpy = "1.19.5"
+tensorflow = "*"
+tensorflow-addons = "*"
+basemap = "*"
+
+[dev-packages]
+jupyter = "*"
+pandas = "1.2.4"
+
+[requires]
+python_version = "3.9"

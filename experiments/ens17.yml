@@ -1,0 +1,20 @@
+experiment_name: 'ens17'
+
+model: CNN
+
+data:
+  data_folder: 'TCSA_data'
+  batch_size: 50
+  encode_length: 1
+  estimate_distance: 8
+  rotate_type: 'shear'
+  input_image_type: [2,3]
+
+training_setting:
+  evaluate_freq: 1
+  class_weight:
+    - 1
+  learning_rate: 0.0005
+  max_epoch: 30
+
+ 

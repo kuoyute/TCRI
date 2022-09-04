@@ -1,0 +1,5 @@
+*.un~
+*.__pycache__
+TCSA_data
+saved_models
+logs
