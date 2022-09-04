@@ -1,4 +1,4 @@
-# TCIR-Benchmark
+# TCRI
 
 Please refer to the paper for more ensemble details:
 ### A Deep Learning Ensemble Approach for Predicting Tropical Cyclone Rapid Intensification
